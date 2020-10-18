@@ -194,8 +194,49 @@ static void checkMagazine(String[] magazine, String[] note) {
         
 }
 ```
+最後，補上之前遺漏的筆記
+
+- [[012]415. Add Strings](https://github.com/YenKang/Leetcode/blob/master/%5B012%5D415.%20Add%20Strings.md)，也是很吃carry判定，要手抄code一次
+
+- [[013]53. Maximum Subarray](https://github.com/YenKang/Leetcode/blob/master/%5B013%5D53.%20Maximum%20Subarray.md): 得再次手抄code，了解divide and conquer approach內涵
 
 
+```java
+for(int i=mid,leftSum =0 ;i>=left;i--){
+            leftSum += nums[i];
+            leftMax = Math.max(leftMax, leftSum);
+        }
+for(int j=mid+1,rightSum=0;j<=right;j++){
+    rightSum += nums[j];
+    rightMax = Math.max(rightMax, rightSum);
+}
+
+return Math.max(Math.max(maxSubArray(nums, left, mid), maxSubArray(nums, mid + 1, right)), leftMax + rightMax);
+```
+
+- [[014]443. String Compression](https://github.com/YenKang/Leetcode/blob/master/%5B014%5D443.%20String%20Compression.md):用兩個pointers 目前還是有點矇，得再複習，手抄code(把數 字轉成char)
+
+
+```java
+for(char countChar:String.valueOf(count).toCharArray()){
+    chars[resultIndex++] = countChar;
+}  
+```
+- [[015]66. Plus One](https://github.com/YenKang/Leetcode/blob/master/%5B015%5D66.%20Plus%20One.md):可以自己解決，但最後進位要注意
+
+
+```java
+int []x=new int[digits.length+1];
+x[0]=1;
+```
+
+- [[016]67. Add Binary](https://github.com/YenKang/Leetcode/blob/master/%5B016%5D67.%20Add%20Binary.md):目前這個我還是搞不太懂
+
+```java
+if(i>=0){
+  sum += a.charAt(i)-'0';
+}
+```
 
 
 
