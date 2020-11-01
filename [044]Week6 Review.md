@@ -64,3 +64,35 @@ if(target <= nums[mid]){
  }
 ```
 
+[153. Find Minimum in Rotated Sorted Array](https://github.com/YenKang/Leetcode/blob/master/%5B042%5D153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
+
+關鍵在於最後return nums[mid]
+
+```java
+if(nums[mid]<nums[right]){
+    right = mid;
+}
+else if(nums[mid]>nums[right]){
+    left = mid+1;
+}
+else if(nums[mid] == nums[right]){
+    return nums[mid];
+}
+```
+
+[154. Find Minimum in Rotated Sorted Array II](https://github.com/YenKang/Leetcode/blob/master/%5B043%5D154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md
+)
+
+```java
+if(nums[mid]<nums[right]){
+    right = mid;
+}
+else if(nums[mid]>nums[right]){
+    left = mid+1;
+}
+else{
+    right--;
+}
+```
+
+
