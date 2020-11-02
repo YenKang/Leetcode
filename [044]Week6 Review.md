@@ -15,7 +15,7 @@
 - [x] 154. Find Minimum in Rotated Sorted Array II
 
 ### 2.下週任務
-- [ ] [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 - [ ] [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 
