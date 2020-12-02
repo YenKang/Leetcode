@@ -28,7 +28,7 @@
 
 - [Fir][121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
-- [063][70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [Sat][70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 ### 週總結：
 
